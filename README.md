@@ -1,4 +1,15 @@
-# image-process-tools
+
+#此工具是在image-process-tools的基础上修改而成，原链接[image-process-tools][1]
+
+因此工具只能在选择图片时使用，故在原来的基础上把selector参数换成了图片的URL，其他功能照常使用，
+把dist文件夹下的image-process-tools.min.js文件引入项目便可使用
+只需传入图片的URL 并实例化zxImageProcess便可调起图片剪裁
+
+**注：此只适用与图片，没做视频适配**
+
+
+以下是原API
+## image-process-tools
 
 Image pre processing for upload (html5 + canvas), ie10+
 
@@ -172,3 +183,6 @@ https://capricorncd.github.io/image-process-tools/dist
 ## Copyright and license
 
 Code and documentation copyright 2018. capricorncd. Code released under the MIT License.
+
+
+  [1]: https://github.com/capricorncd/image-process-tools
