@@ -1,5 +1,12 @@
 
 #此工具是在image-process-tools的基础上修改而成，原链接[image-process-tools][1]
+```
+git clone https://github.com/flyingTodream/Image-tool.git
+
+npm install
+
+npm run build
+```
 
 因此工具只能在选择图片时使用，故在原来的基础上把selector参数换成了图片的URL，其他功能照常使用，
 把dist文件夹下的image-process-tools.min.js文件引入项目便可使用
